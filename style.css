@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* height: 150vh; */
+    /* background-color: blue; */
+}
+body{
+    background-image: url('img/statistical-calculations.png');
+}
+.heading{
+    text-align: center;
+    background-color: whitesmoke;
+    color:rgb(6, 43, 43);
+    height: auto;
+    width: 100%;
+    font-size: 3em;
+    font-style: oblique;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+.outercalculator{
+    /* color: whitesmoke; */
+    height: 65vh;
+    width: 21vw;
+    margin: 15vh 0 10vh 0 ;
+    background-color: rgba(11, 31, 10, 0.852);
+}
+.upper1{
+    color:white;
+    font-size: large;
+    text-align: center;
+    height: 10%;
+    width: 100%;
+    background-color: black;
+}
+#output{
+    height: 20%;
+    width: 100%;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    font-size: 2em;
+}
+/* .takeinput{
+
+} */
+hr{
+    border: 2px solid rgba(11, 31, 10, 0.852);
+}
+#on_off ,#sum,#multiply ,#subtract ,#seven ,#eight ,#nine ,#clr ,#four ,#five ,#six ,#one ,#two ,#three ,#point ,#delete {
+    height: 8vh;
+    width: 5vw;
+    background-color: yellow;
+}
+#enter ,#zero{
+    height: 8vh;
+    width: 49%;
+    background-color: yellow;
+}

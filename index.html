@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <h1>Simple Calculator</h1>
+        </div>
+    </header>
+    <hr>
+    <main>
+        <div class="outercalculator">
+            <div class="upper1">
+                <h4>Simple Calculator</h4>
+            </div>
+            <div class="outputdisplay" id="output">
+                <!-- <input type="number"> -->
+            </div>
+            <div class="takeinput">
+                <tr>
+                    <th><button id="on_off" onclick="Switch()">ON/OFF</button></th>
+                    <th><button id="sum" onclick="Numeric('+')">+</button></th>
+                    <th><button id="subtract" onclick="Numeric('-')">-</button></th>
+                    <th><button id="multiply" onclick="Numeric('*')">*</button></th>
+                </tr>
+                <hr>
+                <tr>
+                    <td><button id="seven" onclick="Numeric('7')">7</button></td>
+                    <td><button id="eight" onclick="Numeric('8')">8</button></td>
+                    <td><button id="nine" onclick="Numeric('9')">9</button></td>
+                    <td><button id="delete" onclick="Delete()">Delete</button></td>
+                    <hr>
+                </tr>
+                <tr>
+                    <td><button id="four" onclick="Numeric('4')">4</button></td>
+                    <td><button id="five" onclick="Numeric('5')">5</button></td>
+                    <td><button id="six" onclick="Numeric('6')">6</button></td>
+                    <td><button id="clr" onclick="Clr()">CLR</button></td>
+                    <hr>
+                </tr>
+                <tr>
+                    <td><button id="one" onclick="Numeric('1')">1</button></td>
+                    <td><button id="two" onclick="Numeric('2')">2</button></td>
+                    <td><button id="three" onclick="Numeric('3')">3</button></td>
+                    <td><button id="point" onclick="Numeric('.')">.</button></td>
+                    <hr>
+                </tr>
+                <tr>
+                    <td colspan="2"><button id="zero" onclick="Numeric('0')">0</button></td>
+                    <td colspan="2"><button id="enter" onclick="Enter()">=</button></td>
+                    <hr>
+                </tr>
+            </div>
+        </div>
+    </main>
+    <script src="logic.js"></script>
+</body>
+</html>
